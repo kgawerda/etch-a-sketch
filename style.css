@@ -2,6 +2,8 @@ body{
     display: flex;
     align-content: center;
     justify-content: center;
+    flex-shrink: 0;
+    background-color: purple;
 }
 #grid{
     display: grid;
@@ -15,4 +17,19 @@ body{
 .grid-element{
     background-color: antiquewhite;
     user-select: none;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: start;
+}
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
 }
