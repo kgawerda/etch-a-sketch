@@ -7,12 +7,12 @@ body{
     display: grid;
     width: 900px;
     height: 900px;
-    column-gap: 3px;
-    row-gap: 3px;
+    column-gap: 0px;
+    row-gap: 0px;
     background-color: black;
     border: 3px solid black;
 }
 .grid-element{
-    background-color: red;
+    background-color: antiquewhite;
     user-select: none;
 }
