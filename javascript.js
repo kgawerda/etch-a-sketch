@@ -53,7 +53,6 @@ function changeSize() {
     while (size==0){
         size = Number(prompt("Please enter a number higher than 0"));
     }
-    console.log(size);
     deleteGrid();
     grid_init(size);
     currentSize = size;
