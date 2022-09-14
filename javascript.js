@@ -50,6 +50,10 @@ function changeSize() {
     while (size >= 100) {
         size = Number(prompt("Please enter a number lower than 100"));
     }
+    while (size==0){
+        size = Number(prompt("Please enter a number higher than 0"));
+    }
+    console.log(size);
     deleteGrid();
     grid_init(size);
     currentSize = size;
